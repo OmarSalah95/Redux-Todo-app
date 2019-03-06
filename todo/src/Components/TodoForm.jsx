@@ -2,13 +2,13 @@ import React from 'react'
 
 import { connect } from 'react-redux'
 
-import { store } from '../index'
+// import { store } from '../index' // Uncomment to use Dispatch method instead of action creator
 import { addTask } from '../Actions/TodoActions';
 class TodoForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            todoInput:'' // == my payload
+            todoInput:'' 
          }
     }
 

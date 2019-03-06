@@ -2,7 +2,17 @@
   text-align: center;
 }
 
+.task{
+  user-select: none;
+  
+}
+.task:hover{
+  cursor: pointer;
+  user-select: none;
+}
 .complete{
   color:red;
   text-decoration: line-through;
+  user-select: none;
+  cursor: pointer;
 }

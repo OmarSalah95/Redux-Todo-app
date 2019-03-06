@@ -1,4 +1,8 @@
 export {
-    addTodo,
-    ADD_TASK
+    addTask,
+    ADD_TASK,
+    toggleTask,
+    TOGGLE,
+    deleteTask,
+    DELETE,
 } from './TodoActions'
