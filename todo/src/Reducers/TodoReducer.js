@@ -1,4 +1,4 @@
-// import { ADD_TASK } from "../Actions/TodoActions";
+import { ADD_TASK } from "../Actions/TodoActions";
 
 const initialState = {
     todos:[
@@ -10,7 +10,7 @@ const initialState = {
 export const todoReducer = (state = initialState, action) => {
     console.log(action);
     switch (action.type) {
-        case 'ADD_TASK':
+        case ADD_TASK:
             console.log("we made it to the case", action.payload);
             const newTask = {
                 task: action.payload,
